@@ -1,0 +1,43 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+\title{Beamer Presentation}
+\author{Khrus}
+\institute{MNIT Jaipur}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{What is Beamer?}
+  \begin{itemize}
+    \item A LaTeX class for creating slides
+    \item Produces PDF presentations
+    \item Good for equations and code
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Key Features}
+  \begin{block}{Overlays}
+    Reveal content step by step using \texttt{\textbackslash pause}.
+  \end{block}
+  \pause
+  \begin{alertblock}{Themes}
+    Change the whole look with \texttt{\textbackslash usetheme}.
+  \end{alertblock}
+\end{frame}
+
+\begin{frame}[fragile]{Example Code}
+\begin{verbatim}
+print("Hello, Beamer!")
+\end{verbatim}
+\end{frame}
+
+\begin{frame}
+  \centering \Large Thank You!
+\end{frame}
+
+\end{document}
