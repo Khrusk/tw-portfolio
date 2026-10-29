@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{Introduction to \LaTeX}
+\author{Khrus \\ MNIT Jaipur}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\LaTeX{} is a document preparation system for high-quality technical documents.
+
+\section{Features}
+\begin{itemize}
+  \item Professional typesetting of equations
+  \item Automatic numbering and cross-references
+  \item Table of contents and bibliography support
+\end{itemize}
+
+\section{An Equation}
+The quadratic formula is given by
+\begin{equation}
+  x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+  \label{eq:quad}
+\end{equation}
+Equation~\ref{eq:quad} gives the roots of $ax^2 + bx + c = 0$.
+
+\section{A Table}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Tool} & \textbf{Purpose} \\
+\hline
+LaTeX & Documents \\
+Beamer & Presentations \\
+Doxygen & Code documentation \\
+\hline
+\end{tabular}
+\caption{Documentation tools}
+\end{table}
+
+\end{document}
