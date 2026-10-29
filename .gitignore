@@ -1,0 +1,18 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.nav
+*.snm
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Doxygen generated output
+doxygen/output/
+
+# Misc
+.env
+__pycache__/
+*.pyc
